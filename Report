@@ -3,17 +3,31 @@ For this part of the assignment, you’ll write a report on the performance of t
 The report should contain the following:
 
 Overview of the analysis: Explain the purpose of this analysis.
+-
 
 Results: Using bulleted lists and images to support your answers, address the following questions:
 
 Data Preprocessing
 
 What variable(s) are the target(s) for your model?
+-The variable I targeted for this assignment was the "IS_SUCCESSFUL" column from th application_df.
+
 What variable(s) are the features for your model?
+-I used all of the other columns as the features. That is why I dropped the target columb from the dataframe. 
+
 What variable(s) should be removed from the input data because they are neither targets nor features?
+-The assignment instructes told us to remove the 'EIN' and 'NAME' columns from the dataset. 
+
 Compiling, Training, and Evaluating the Model
 
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
+-I used 9 hidden nodes for the first layer and 18 hidden nodes for the second layer. Honestly, I am not sure why I chose these numbers, but it seems it did end up working out. 
+
 Were you able to achieve the target model performance?
+-Unfortunately Not. I ended up around 73%. 
+
 What steps did you take in your attempts to increase model performance?
+-
+
 Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+-I fell short of the 75% threshold by just 2%. If I had more time I would adjust the number of nodes and nuerons and see if that would increase the performance of the model. 
