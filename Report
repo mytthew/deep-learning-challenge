@@ -3,7 +3,7 @@ For this part of the assignment, you’ll write a report on the performance of t
 The report should contain the following:
 
 Overview of the analysis: Explain the purpose of this analysis.
--
+-The purpose of this model is to determine the risk in selecting applicants for funding with the best chance of success. The model will predict if certain applicants will end up being a good fit for Alphabet Soup or not. 
 
 Results: Using bulleted lists and images to support your answers, address the following questions:
 
